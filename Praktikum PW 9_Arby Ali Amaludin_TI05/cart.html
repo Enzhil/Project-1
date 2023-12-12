@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omen Computer</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="img/oc-high-resolution-logo-transparent.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <a href="#">Omen<span>Computer</span></a>
+
+      <nav>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="far fa-shopping-bag"></i
+            ></a>
+          </li>
+
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </nav>
+      <div id="mobile">
+        <a href="cart.html"
+          ><i style="color: white" class="far fa-shopping-bag"></i
+        ></a>
+        <i id="bar" style="color: white" class="fas fa-outdent"></i>
+      </div>
+    </header>
+
+    <section id="page-header" class="cart-header">
+      <h2>#Cart</h2>
+      <p>Get coupon and discount</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              <a href=""><i class="far fa-times-circle"></i></a>
+            </td>
+            <td>
+              <img src="img/products/Keyboard mc 1.jpg" alt="Foto produk" />
+            </td>
+            <td>MageGee Portable 60% Mechanical Keyboard</td>
+            <td>Rp 7.609.000</td>
+            <td><input type="number" value="1" /></td>
+            <td>Rp 7.609.000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>Rp 7.609.000</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>Rp 7.609.000</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img
+          class="logo"
+          src="img/oc-high-resolution-logo-transparent.png"
+          alt=""
+        />
+        <h4 style="color: white">Contact</h4>
+        <p style="color: white">
+          <strong style="color: white">Address:</strong> 562 Wellington Road,
+          Street 32, San Francisco
+        </p>
+        <p style="color: white">
+          <strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789
+        </p>
+        <p style="color: white"><strong>Hours:</strong> 10:00, Mon - Sat</p>
+        <div class="follow">
+          <h4 style="color: white">Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4 style="color: white">About</h4>
+        <a href="#" style="color: white">About Us</a>
+        <a href="#" style="color: white">Delivery Information</a>
+        <a href="#" style="color: white">Privacy Policy</a>
+        <a href="#" style="color: white">Terms & Condition</a>
+        <a href="#" style="color: white">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4 style="color: white">My Account</h4>
+        <a href="#" style="color: white">Sign In</a>
+        <a href="#" style="color: white">View Cart</a>
+        <a href="#" style="color: white">My Wishlist</a>
+        <a href="#" style="color: white">Track y Order</a>
+        <a href="#" style="color: white">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4 style="color: white">Install App</h4>
+        <p style="color: white">From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p style="color: white">Secure Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p style="color: white">Develop By Arby Ali &copy; 2023</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
